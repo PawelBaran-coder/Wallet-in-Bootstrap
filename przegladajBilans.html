@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/fontello.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&display=swap" rel="stylesheet">
+	
+	<title>Wallet</title>
+	
+	<meta name="description" content="Twoje finanse pod kontrolą." />
+	<meta name="keywords" content="finanse osobiste, elektroniczny prtfel, zarządzanie budżetem domowym, bilans zysków i strat, wydatki, przychody" />
+
+	<script src="timer.js"></script>
+	
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script src="pieChart.js"></script>
+	
+	<script type="text/javascript">
+		google.charts.load('current', {'packages':['corechart']});
+		google.charts.setOnLoadCallback(drawChart);
+	</script>
+
+</head>
+
+<body onload="odliczanie();">
+
+	<div id="containerMenu">
+
+		<div id="rectangle">
+			<div id="logo"><a href="index.html" class="logolink">Jan Kowalski</a></div>
+			<div class="dropdown">
+				<button class="dropButton1"></button>
+				<div class="dropdown-content">
+
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropButton2"></button>
+				<div class="dropdown-content">
+
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropButton3"></button>
+				<div class="dropdown-content">
+
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropButton4"></button>
+				<div class="dropdown-content">
+			
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropButton5"></button>
+				<div class="dropdown-content">
+				
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropButton6">| Okres |</button>
+				<div class="dropdown-content">
+					<a href="#">Bieżący miesiąc</a>
+					<a href="#">Poprzedni miesiąc</a>
+					<a href="#">Bieżący rok</a>
+					<a href="#">Niestandardowy</a>
+				</div>
+			</div>
+			<div id="clock"></div>
+			<div style="clear: both;"></div>
+		</div>
+		
+		<div id="navigation">
+		
+			<div class="tile1">
+				<a href="dodajPrzychod.html" class="tilelink"><i class="icon-money-1"></i>Dodaj przychód</a>
+			</div>
+			<div class="tile2">
+				<a href="dodajWydatek.html" class="tilelink"><i class="icon-edit"></i>Dodaj wydatek</a>
+			</div>
+			<div class="tile3">
+				<a href="przegladajBilans.html" class="tilelink"><i class="icon-chart-bar"></i>Przeglądaj bilans</a>
+			</div>
+			<div class="tile4">
+				<a href="ustawienia.html" class="tilelink"><i class="icon-cog-alt"></i>Ustawienia</a>
+			</div>
+			<div class="tile5">
+				<a href="wyloguj.html" class="tilelink"><i class="icon-off"></i>Wyloguj</a>
+			</div>
+		
+		</div>
+		
+		<div id="description">
+		W celu przeglądania bilansu przychodów i wydatków wybierz interesujący Cię przedział czasowy z menu po prawej stronie nagłówka.
+		<br /><br />
+			<table>
+				<thead>
+					<tr> <th> KATEGORIA <th>PRZYCHODY <th>WYDATKI
+				<tbody>
+					<tr> <th> Jedzenie <td> 0,0zł <td> 0,0zł
+					<tr> <th> Mieszkanie <td> 0,0zł <td> 0,0zł
+					<tr> <th> Transport   <td> 0,0zł <td> 0,0zł
+					<tr> <th> Telekomunikacja   <td> 0,0zł <td> 0,0zł
+					<tr> <th> Opieka zdrowotna   <td> 0,0zł <td> 0,0zł
+					<tr> <th> Ubranie   <td> 0,0zł <td> 0,0zł
+					<tr> <th> Higiena   <td> 0,0zł <td> 0,0zł
+					<tr> <th> Dzieci   <td> 0,0zł <td> 0,0zł
+					<tr> <th> Rozrywka   <td> 0,0zł <td> 0,0zł
+					<tr> <th> Wycieczka   <td> 0,0zł <td> 0,0zł
+					<tr> <th> Szkolenia   <td> 0,0zł <td> 0,0zł
+					<tr> <th> Książki   <td> 0,0zł <td> 0,0zł
+					<tr> <th> Oszczędności   <td> 0,0zł <td> 0,0zł
+					<tr> <th> Na złotą jesień, czyli emeryturę   <td> 0,0zł <td> 0,0zł
+					<tr> <th> Spłata długów   <td> 0,0zł <td> 0,0zł
+					<tr> <th> Darowizna   <td> 0,0zł <td> 0,0zł
+					<tr> <th> Inne wydatki   <td> 0,0zł <td> 0,0zł
+					<tr> <th> SUMA  <th> 0,0zł <th> 0,0zł
+			</table>
+			
+			<div id="piechart"></div>
+
+		</div>
+		
+		<div style="clear: both;"></div>
+		
+	</div>
+	
+	<div id="footer">
+			Copyright 2020 &copy; Paweł Baran. Wszelkie prawa zastrzeżone.
+	</div>
+
+</body>
+
+
+</html>
