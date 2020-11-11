@@ -23,107 +23,94 @@
 
 <body onload="odliczanie();">
 
-	<header>
-	
-		
-	
-	</header>
-	
-	
 
+	
+	
 	<main>
 	
 		<div class="container">
 			
-			<div id="containerMenu">
-			
+			<div class="col-12 containerMenu" >
 				
-					<div id="rectangle">
-						<div id="logo">
-							<a href="index.html" class="logolink">Jan Kowalski</a>
-						</div>
-						<div class="dropdown">
-							<button class="dropButton1"></button>
-							<div class="dropdown-content">
-
-							</div>
-						</div>
-						<div class="dropdown">
-							<button class="dropButton2"></button>
-							<div class="dropdown-content">
-
-							</div>
-						</div>
-						<div class="dropdown">
-							<button class="dropButton3"></button>
-							<div class="dropdown-content">
-
-							</div>
-						</div>
-						<div class="dropdown">
-							<button class="dropButton4"></button>
-							<div class="dropdown-content">
-						
-							</div>
-						</div>
-						<div class="dropdown">
-							<button class="dropButton5"></button>
-							<div class="dropdown-content">
-							
-							</div>
-						</div>
-						<div class="dropdown">
-							<button class="dropButton6"></button>
-							<div class="dropdown-content">
-							
-							</div>
-						</div>
-						<div id="clock">
-						</div>
-						<div style="clear: both;">
-						</div>
-					</div>
+				<div class="row ">
 					
-					<div id="navigation">
+					<div class="col-12">
 					
-						<div class="tile1">
-							<a href="dodajPrzychod.html" class="tilelink"><i class="icon-money-1"></i>Dodaj przychód</a>
-						</div>
-						<div class="tile2">
-							<a href="dodajWydatek.html" class="tilelink"><i class="icon-edit"></i>Dodaj wydatek</a>
-						</div>
-						<div class="tile3">
-							<a href="przegladajBilans.html" class="tilelink"><i class="icon-chart-bar"></i>Przeglądaj bilans</a>
-						</div>
-						<div class="tile4">
-							<a href="ustawienia.html" class="tilelink"><i class="icon-cog-alt"></i>Ustawienia</a>
-						</div>
-						<div class="tile5">
-							<a href="wyloguj.html" class="tilelink"><i class="icon-off"></i>Wyloguj</a>
-						</div>
-					
-					</div>
-					
-					<div id="description">
-					<p>Witaj w programie "Twój budżet domowy".<p/>
-					<p>Po lewej stronie znajduje się lista dostępnych opcji programu. 
-					Po najechaniu kursorem na daną opcje wyświetli się jej krótki opis. Po kliknięciu zostaniesz przeniesiony do okna danej opcji.
-					Zacznij już dziś zarządzać swoim budżetem domowym, kontrolować wydatki i wyciągać wnioski :) <p/>
-					<p>Zatem do dzieła!<p/>
-					</div>
-					
-					<div style="clear: both;"></div>
-					
-			</div>	
+						<header>
 			
-			<div id="footer">
-				Copyright 2020 &copy; Paweł Baran. Wszelkie prawa zastrzeżone.
-			</div>
+							<div class="col-12 rectangle" >
+							
+								<div class="row">
+									<div class="col-6 logo">
+										<a href="index.html" class="logolink">Jan Kowalski</a>
+									</div>
+									
+									<div class="col-6">
+										<div id="clock"></div>
+									</div>
+									
+								</div>
+							</div>
+		
+						</header>
+						
+					</div>	
+					
+					<div class="col-sm-3 col-md-4 col-lg-3">
+					
+							<figure>
+								<div class="tile1">
+									<a href="dodajPrzychod.html" class="tilelink"><i class="icon-money-1"></i>Dodaj przychód</a>
+								</div>
+							</figure>
+						
+							<figure>
+								<div class="tile2">
+									<a href="dodajWydatek.html" class="tilelink"><i class="icon-edit"></i>Dodaj wydatek</a>
+								</div>
+							</figure>
+							
+							<figure>
+								<div class="tile3">
+									<a href="przegladajBilans.html" class="tilelink"><i class="icon-chart-bar"></i>Przeglądaj bilans</a>
+								</div>
+							</figure>
+								
+							<figure>
+								<div class="tile4">
+									<a href="ustawienia.html" class="tilelink"><i class="icon-cog-alt"></i>Ustawienia</a>
+								</div>
+							</figure>
+							
+							<figure>
+								<div class="tile5">
+									<a href="wyloguj.html" class="tilelink"><i class="icon-off"></i>Wyloguj</a>
+								</div>
+							</figure>
+							
+					</div>
 
+					<div class="col-sm-9  col-md-8 col-lg-9 text-primary description">
+						<p class="text-center">Witaj w programie "Twój budżet domowy".<p/>
+						<p class="text-justify">Po lewej stronie znajduje się lista dostępnych opcji programu. 
+						Po najechaniu kursorem na daną opcje wyświetli się jej krótki opis. Po kliknięciu zostaniesz przeniesiony do okna danej opcji.
+						Zacznij już dziś zarządzać swoim budżetem domowym, kontrolować wydatki i wyciągać wnioski :) <p/>
+						<p>Zatem do dzieła!<p/>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+			<footer>
+				<div class="footer">
+					<div class="footer-copyright text-center border py-3 ">
+						Copyright 2020 &copy; Paweł Baran. Wszelkie prawa zastrzeżone.
+					</div>
+				</div>
+			</footer>
 		</div>
 		
-		
-	
 	</main>
 	
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
