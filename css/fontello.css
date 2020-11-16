@@ -55,17 +55,17 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-cog-alt:before { content: '\e800';  font-size: 60px; margin-top: 10px;} /* '' */
+.icon-cog-alt:before { content: '\e800'; margin-top: 10px;} /* '' */
 .icon-cog:before { content: '\e801'; } /* '' */
-.icon-edit:before { content: '\e802'; font-size: 60px; margin-top: 10px;} /* '' */
+.icon-edit:before { content: '\e802'; margin-top: 10px;} /* '' */
 .icon-pencil:before { content: '\e803'; } /* '' */
-.icon-chart-bar:before { content: '\e804'; font-size: 60px; margin-top: 10px;} /* '' */
-.icon-off:before { content: '\e805';  font-size: 60px; margin-top: 10px;} /* '' */
+.icon-chart-bar:before { content: '\e804'; margin-top: 10px;} /* '' */
+.icon-off:before { content: '\e805'; margin-top: 10px;} /* '' */
 .icon-credit-card:before { content: '\e806'; } /* '' */
-.icon-dollar:before { content: '\e807'; font-size: 60px; margin-top: 10px;} /* '' */
-.icon-money-1:before { content: '\e808'; font-size: 60px; margin-top: 10px; } /* '' */
+.icon-dollar:before { content: '\e807'; margin-top: 10px;} /* '' */
+.icon-money-1:before { content: '\e808'; margin-top: 10px; } /* '' */
 .icon-pencil-1:before { content: '\e809'; } /* '' */
-.icon-cog-1:before { content: '\e80a';  font-size: 60px; margin-top: 10px; } /* '' */
+.icon-cog-1:before { content: '\e80a'; margin-top: 10px; } /* '' */
 .icon-key:before { content: '\e80b'; } /* '' */
 .icon-money:before { content: '\f0d6'; } /* '' */
 .icon-euro:before { content: '\f153'; } /* '' */
