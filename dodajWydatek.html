@@ -98,82 +98,136 @@
 							
 					</div>
 
-					<div class="col-sm-9  col-md-8 col-lg-9 description">
+					<div class="col-sm-9  col-md-8 col-lg-9">
 						
 						<form>
-							<label>
-							<b>Kwota:</b><input type="text" placeholder="0,00 zł" onfocus="this.placeholder=''" onblur="this.placeholder='0,00 zł'" class="form-control">
-							</label>
+							<div class="form-row">
+								<div class="form-group col-6">
+									<label for="kwota">Kwota:</label>
+									<input type="text" placeholder="0,00 zł" onfocus="this.placeholder=''" onblur="this.placeholder='0,00 zł'" class="form-control" id="kwota">
+								</div>
+								<div class="form-group col-6">
+									<label for="data">Data:</label>
+									<input type="date" class="form-control" id="data">
+								</div>
+								
+							</div>
 							
-							<label>
-								<b>Data:</b><input type="date" class="form-control">
-							</label>
+							<div class="form-row">
 							
-							<label>
-								<b>Sposób płatności: </b>
-								<br>
-								<input type="radio" name="paymentMethod" value="Gotówka"> Gotówka
-								<br>
-								<input type="radio" name="paymentMethod" value="Karta debetowa"> Karta debetowa
-								<br>
-								<input type="radio" name="paymentMethod" value="Karta kredytowa"> Karta kredytowa
-							</label>		
-							<br>
+								<div class="form-group col-4 border"><label><b>Sposób płatności:</b></label>
+									<div class="custom-control custom-radio">
+											<input class="custom-control-input" type="radio" name="paymentMethod" id="gotowka" value="Gotówka">
+											<label class="custom-control-label" for="gotowka">Gotówka</label>
+									</div>		
+									<div class="custom-control custom-radio">
+											<input class="custom-control-input" type="radio" name="paymentMethod" id="kartaDebetowa" value="Karta debetowa">
+											<label class="custom-control-label" for="kartaDebetowa">Karta debetowa</label>
+									</div>	
+									<div class="custom-control custom-radio">
+											<input class="custom-control-input" type="radio" name="paymentMethod" id="kartaKredytowa" value="Karta kredytowa">
+											<label class="custom-control-label" for="kartaKredytowa">Karta kredytowa</label>
+									</div>				
+								</div>
+								
+								<div class="form-group col-4 border"><label><b>Kategoria:</b></label>
+									<div class="custom-control custom-radio">
+										<input class="custom-control-input" type="radio" name="category" id="food" value="Jedzenie">
+										<label class="custom-control-label" for="food">Jedzenie</label>
+									</div>
+									<div class="custom-control custom-radio">
+										<input class="custom-control-input" type="radio" name="category" id="apartment" value="Mieszkanie">
+										<label class="custom-control-label" for="apartment">Mieszkanie</label>
+									</div>	
+									
+									<div class="custom-control custom-radio">
+										<input class="custom-control-input" type="radio" name="category" id="transport" value="Transport">
+										<label class="custom-control-label" for="transport">Transport</label>
+									</div>	
+										
+									<div class="custom-control custom-radio">
+										<input class="custom-control-input" type="radio" name="category" id="telecommunication" value="Telecommunication">
+										<label class="custom-control-label" for="telecommunication">Telekomunikacja</label>
+									</div>
+									<div class="custom-control custom-radio">
+										<input class="custom-control-input" type="radio" name="category" id="healthcare" value="Healthcare">
+										<label class="custom-control-label" for="healthcare">Opieka zdrowotna</label>
+									</div>
+									<div class="custom-control custom-radio">
+										<input class="custom-control-input" type="radio" name="category" id="cloth" value="Cloth">
+										<label class="custom-control-label" for="cloth">Ubranie</label>
+									</div>
+									<div class="custom-control custom-radio">
+										<input class="custom-control-input" type="radio" name="category" id="hygiene" value="Hygiene">
+										<label class="custom-control-label" for="hygiene">Higiena</label>
+									</div>
+									<div class="custom-control custom-radio">
+										<input class="custom-control-input" type="radio" name="category" id="children" value="Children">
+										<label class="custom-control-label" for="children">Dzieci</label>
+									</div>
+								</div>
+								
+								<div class="form-group col-4 border">	
+									<div class="custom-control custom-radio">
+										<input class="custom-control-input" type="radio" name="category" id="entertainment" value="Entertainment">
+										<label class="custom-control-label" for="entertainment">Rozrywka</label>
+									</div>								
+									<div class="custom-control custom-radio">
+										<input class="custom-control-input" type="radio" name="category" id="tour" value="Tour">
+										<label class="custom-control-label" for="tour">Wycieczka</label>
+									</div>									
+									<div class="custom-control custom-radio">
+										<input class="custom-control-input" type="radio" name="category" id="training" value="Training">
+										<label class="custom-control-label" for="training">Szkolenia</label>
+									</div>		
+									<div class="custom-control custom-radio">
+										<input class="custom-control-input" type="radio" name="category" id="books" value="Books">
+										<label class="custom-control-label" for="books">Książki</label>
+									</div>	
+									<div class="custom-control custom-radio">
+										<input class="custom-control-input" type="radio" name="category" id="savings" value="Savings">
+										<label class="custom-control-label" for="savings">Oszczędności</label>
+									</div>	
+									<div class="custom-control custom-radio">
+										<input class="custom-control-input" type="radio" name="category" id="pension" value="Pension">
+										<label class="custom-control-label" for="pension">Na złotą jesień, czyli emeryturę</label>
+									</div>
+									<div class="custom-control custom-radio">
+										<input class="custom-control-input" type="radio" name="category" id="repayment" value="Repayment">
+										<label class="custom-control-label" for="repayment">Spłata długów</label>
+									</div>
+									<div class="custom-control custom-radio">
+										<input class="custom-control-input" type="radio" name="category" id="donation" value="Donation">
+										<label class="custom-control-label" for="donation">Darowizna</label>
+									</div>									
+									<div class="custom-control custom-radio">
+										<input class="custom-control-input" type="radio" name="category" id="otherExpenses" value="Donation">
+										<label class="custom-control-label" for="otherExpenses">Inne wydatki</label>
+									</div>							
+								</div>	
+									<div class="form-group border col-12">
+										<label for="komentarz"><b>Komentarz:</b></label>
+										<textarea name="dodatkowyOpis" id="komentarz" class="form-control"></textarea>
+									</div>
+								
+							</div>
 							
-							<label>
-								<b>Kategoria:</b>
-								<br>
-									<input type="radio" name="category" value="Jedzenie"> Jedzenie
-									<br>
-									<input type="radio" name="category" value="Mieszkanie"> Mieszkanie
-									<br>
-									<input type="radio" name="category" value="Transport"> Transport
-									<br>
-									<input type="radio" name="category" value="Telekomunikacja"> Telekomunikacja
-									<br>
-									<input type="radio" name="category" value="Opieka zdrowotna"> Opieka zdrowotna
-									<br>
-									<input type="radio" name="category" value="Ubranie"> Ubranie
-									<br>
-									<input type="radio" name="category" value="Higiena"> Higiena
-									<br>
-									<input type="radio" name="category" value="Dzieci"> Dzieci
-									<br>
-									<input type="radio" name="category" value="Rozrywka"> Rozrywka
-									<br>
-									<input type="radio" name="category" value="Wycieczka"> Wycieczka
-									<br>
-									<input type="radio" name="category" value="Szkolenia"> Szkolenia
-									<br>
-									<input type="radio" name="category" value="Książki"> Książki
-									<br>
-									<input type="radio" name="category" value="Oszczędności"> Oszczędności
-									<br>
-									<input type="radio" name="category" value="Na złotą jesień, czyli emeryturę"> Na złotą jesień, czyli emeryturę
-									<br>
-									<input type="radio" name="category" value="Spłata długów"> Spłata długów
-									<br>
-									<input type="radio" name="category" value="Darowizna"> Darowizna
-									<br>
-									<input type="radio" name="category" value="Inne wydatki"> Inne wydatki
-							</label>
-							<br>
-							<label>
-								<b>Komentarz:</b>
-								<br>
-								<input type="text" placeholder="... " onfocus="this.placeholder=''" onblur="this.placeholder='...'" class="form-control">
-							</label>
-							<br>
-							<input id="addSubmit" type="submit" value="Dodaj">
-							<input id="cancelSubmit" type="reset" value="Anuluj">
+							<div class="form-row">
+								<div class="btn-group border col-12">
+									<button type="submit" class="btn btn-success">Wyślij</button>
+									<button type="reset" class="btn btn-danger">Anuluj</button>
+									<!--<input id="addSubmit" type="submit" value="Dodaj">
+									<input id="cancelSubmit" type="reset" value="Anuluj"> -->
+								</div>
+							</div>
 						
 						</form>
-						 
-					</div>
-				
+					</div>	 
 				</div>
 				
 			</div>
+				
+		</div>
 			<footer>
 				<div class="footer">
 					<div class="footer-copyright text-center border py-3 ">

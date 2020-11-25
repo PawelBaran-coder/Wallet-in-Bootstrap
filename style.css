@@ -2,7 +2,7 @@ body
 {
 	/* Background pattern from subtlepatterns.com */
 	background-image: url("img/doublebubble.png");
-	font-size: 20px;
+
 	font-family: 'Lato', sans-serif;
 }
 
@@ -51,50 +51,7 @@ body
 {
 	text-align: right;
 	font-size: 30px;
-	font-family: 'Noto Sans', sans-serif;
-	
-}
-
-#addSubmit
-{
-	float: left;
-	width: 100px;
-	background-color: #36b03c;
-	font-size:16px;
-	color: white;
-	padding: 4px 4px;
-	margin-top: 30px;
-	border: none;
-	border-radius: 10px;
-	cursor: pointer;
-	letter-spacing: 2px;
-	outline: none;
-}
-
-#addSubmit:hover
-{
-	background-color: #25a02b;
-}
-
-#cancelSubmit
-{
-	width: 100px;
-	background-color: #FF3D00;
-	font-size:16px;
-	color: white;
-	padding: 4px 4px;
-	margin-top: 30px;
-	margin-left: 20px;
-	border: none;
-	border-radius: 10px;
-	cursor: pointer;
-	letter-spacing: 2px;
-	outline: none;
-}
-
-#cancelSubmit:hover
-{
-	background-color: #EE2E00;
+	font-family: 'Noto Sans', sans-serif;	
 }
 
 .dropButton1
@@ -289,16 +246,7 @@ input[type=name],
 input[type=email],
 input[type=password]
 {
-	width: 300px;
-	background-color: #FFFFFF;
 	color: #666;
-	border: 1px solid #696969;
-	border-radius: 10px;
-	font-size: 20px;
-	padding: 10px;
-	box-sizing: border-box;
-	outline: none;
-	margin-top: 10px;
 }
 
 input[type=date]:focus,
@@ -307,8 +255,6 @@ input[type=password]:focus,
 input[type=name]:focus,
 input[type=email]:focus
 {
-
-	background-color: #FFFFFF;
 	color: #000000;
 }
 
