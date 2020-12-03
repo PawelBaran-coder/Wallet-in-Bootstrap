@@ -29,7 +29,7 @@
 
 </head>
 
-<body onload="odliczanie();">
+<body>
 	
 	<header>
 	
@@ -71,17 +71,49 @@
 												<div class="dropdown-divider"></div>
 												<button class="dropdown-item">Bieżący rok</button>
 												<div class="dropdown-divider"></div>
-												<button class="dropdown-item">Niestandardowy</button>
+												<button  class="dropdown-item" data-toggle="modal" data-target="#dateModal">
+													Niestandardowy
+												</button>
+											</div>
+											
+										</div>
+									</div>
+									
+									<div class="modal fade" id="dateModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h5 class="modal-title" id="exampleModalLabel">Wybierz datę początkową i końcową</h5>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span aria-hidden="true">&times;</span>
+													</button>
+												</div>
+												<div class="modal-body">
+													<div class="form-group">
+														<label for="data">Data początkowa:</label>
+														<input type="date" class="form-control" id="data">
+													</div>
+													<div class="form-group">
+														<label for="data">Data końcowa:</label>
+														<input type="date" class="form-control" id="data">
+													</div>
+													
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-secondary" data-dismiss="modal">Anuluj</button>
+													<button type="button" class="btn btn-primary">Ustaw</button>
+												</div>
 											</div>
 										</div>
-
 									</div>
+									
+									
 									
 								</div>
 							</div>
 		
 						</header>
-						
+					
 					</div>	
 					
 					<div class="col-sm-3 col-md-4 col-lg-3">
@@ -119,6 +151,13 @@
 					</div>
 
 					<div class="col-sm-9  col-md-8 col-lg-9">
+						
+						
+						
+						
+						
+						
+						
 						
 
 					</div>	 
