@@ -6,18 +6,37 @@ body
 	font-family: 'Lato', sans-serif;
 }
 
-#container
+#chart_wrap 
 {
+    position: relative;
+    padding-bottom: 100%;
+    height: 0;
+    overflow:hidden;
+}
+
+#piechart 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+}
+
+.loginContainer
+{
+	padding: 20px;
 	border-radius: 10px;
 	background-color: lightcyan;
-	width: 300px;
-	padding: 50px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 100px;
 	-webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
 	-moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
 	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+}
+
+.form-label-group 
+{
+  position: relative;
+  margin-bottom: 1rem;
 }
 
 .containerMenu
@@ -28,6 +47,11 @@ body
 	-moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
 	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
 	padding: 20px;
+}
+
+.navbar
+{
+
 }
 
 .rectangle
@@ -54,107 +78,7 @@ body
 	font-family: 'Noto Sans', sans-serif;	
 }
 
-.dropButton1
-{
-	padding: 7px;
-	width: 120px;
-	background-color: #FFFFFF;
-	font-size: 20px;
-	font-family: 'Noto Sans', sans-serif;
-	border: none;
-}
 
-.dropButton2
-{
-	padding: 7px;
-	width: 120px;
-	background-color: #FFFFFF;
-	font-size: 20px;
-	font-family: 'Noto Sans', sans-serif;
-	border: none;
-}
-
-.dropButton3
-{
-	padding: 7px;
-	width: 120px;
-	background-color: #FFFFFF;
-	font-size: 20px;
-	font-family: 'Noto Sans', sans-serif;
-	border: none;
-}
-
-.dropButton4
-{
-	padding: 7px;
-	width: 120px;
-	background-color: #FFFFFF;
-	font-size: 20px;
-	font-family: 'Noto Sans', sans-serif;
-	border: none;
-}
-
-.dropButton5
-{
-	padding: 7px;
-	width: 120px;
-	background-color: #FFFFFF;
-	font-size: 20px;
-	font-family: 'Noto Sans', sans-serif;
-	border: none;
-}
-
-.dropButton6
-{
-	
-	padding: 7px;
-	width: 120px;
-	background-color: #FFFFFF;
-	font-size: 20px;
-	font-family: 'Noto Sans', sans-serif;
-	border: none;
-}
-
-.dropdown
-{
-	position: relative;
-	display: inline-block;
-	background-color: white;
-	width: 120px;
-	font-size: 20px;
-	float: left;
-	font-family: 'Noto Sans', sans-serif;
-	text-align: center;
-}
-
-.dropdown-content 
-{
-	width: 200px;
-	right: 0;
-	display: none;
-	position: absolute;
-	background-color: white;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
-}
-
-.dropdown-content a 
-{
-  color: #000000;
-  padding: 12px 12px;
-  text-decoration: none;
-  display: block;
-  border-bottom: 1px solid #C0C0C0;
-}
-.dropdown-content a:hover 
-{
-	background-color: #ddd;
-}
-.dropdown:hover .dropdown-content 
-{
-	display: block;
-}
 
 .tile1
 {
@@ -240,50 +164,6 @@ a.logolink
 	text-decoration: none;
 }
 
-input[type=date],
-input[type=text],
-input[type=name],
-input[type=email],
-input[type=password]
-{
-	color: #666;
-}
-
-input[type=date]:focus,
-input[type=text]:focus,
-input[type=password]:focus,
-input[type=name]:focus,
-input[type=email]:focus
-{
-	color: #000000;
-}
-
-input[type=submit]
-{
-	width: 300px;
-	background-color: #36b03c;
-	font-size:20px;
-	color: white;
-	padding: 15px 10px;
-	margin-top: 30px;
-	border: none;
-	border-radius: 10px;
-	cursor: pointer;
-	letter-spacing: 2px;
-	outline: none;
-}
-input[type=submit]:focus
-{
-	-webkit-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
-	-moz-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
-	box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
-}
-
-input[type=submit]:hover
-{
-	background-color: #37b93d;
-}
-
 td
 {
 	border: 1px solid gray; 
@@ -301,12 +181,6 @@ table
 {
 	align: right;
 	border-collapse: collapse;
-}
-
-.description
-{
-	padding: 20px;
-	font-size: 16px;
 }
 
 @media (max-width: 575px)

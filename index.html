@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="css/fontello.css" type="text/css">
 	<link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&display=swap" rel="stylesheet">
 	
-	<title>Wallet</title>
+	<title>Portfel</title>
 	
 	<meta name="description" content="Twoje finanse pod kontrolą.">
 	<meta name="keywords" content="finanse osobiste, elektroniczny prtfel, zarządzanie budżetem domowym, bilans zysków i strat, wydatki, przychody">
@@ -25,11 +25,30 @@
 	
 	<header>
 	
-		<nav class="navbar navbar-dark bg-info">
+		<nav class="navbar navbar-expand-sm navbar-dark bg-info">
 			
-			<a class="navbar-brand"><img src="img/wallet-with-money-png-42773.png" width="50" 
-			class="d-inline-block mr-2"	alt=""> Portfel</a>
-				
+			<a class="navbar-brand"><img src="img/wallet-with-money-png-42773.png" width="50" alt=""> Portfel</a>
+			<button class="navbar-toggler" type="button" data-target="#navbar" data-toggle="collapse">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div class="navbar-collapse collapse justify-content-end" id="navbar">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a href="#" class="nav-link">Jak używać?</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">FAQ</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Kontakt</a>
+					</li>
+				</ul>
+			</div>
+			
 		</nav>
 
 	</header>
@@ -38,81 +57,70 @@
 	
 		<div class="container">
 			
-			<div class="col-12 containerMenu mt-3" >
+			<div class="col-12 containerMenu mt-5" >
 				
 				<div class="row ">
 					
 					<div class="col-12">
 					
 						<header>
-			
 							<div class="col-12 rectangle" >
-							
 								<div class="row">
 									<div class="col-6 logo">
 										<a href="index.html" class="logolink">Jan Kowalski</a>
 									</div>
-									
 									<div class="col-6">
 										<div id="clock"></div>
 									</div>
-									
 								</div>
 							</div>
-		
 						</header>
 						
 					</div>	
 					
 					<div class="col-sm-3 col-md-4 col-lg-3">
-					
 							<figure>
 								<div class="tile1">
 									<a href="dodajPrzychod.html" class="tilelink"><i class="icon-money-1"></i>Dodaj przychód</a>
 								</div>
 							</figure>
-						
 							<figure>
 								<div class="tile2">
 									<a href="dodajWydatek.html" class="tilelink"><i class="icon-edit"></i>Dodaj wydatek</a>
 								</div>
 							</figure>
-							
 							<figure>
 								<div class="tile3">
 									<a href="przegladajBilans.html" class="tilelink"><i class="icon-chart-bar"></i>Przeglądaj bilans</a>
 								</div>
 							</figure>
-								
 							<figure>
 								<div class="tile4">
 									<a href="ustawienia.html" class="tilelink"><i class="icon-cog-alt"></i>Ustawienia</a>
 								</div>
 							</figure>
-							
 							<figure>
 								<div class="tile5">
 									<a href="wyloguj.html" class="tilelink"><i class="icon-off"></i>Wyloguj</a>
 								</div>
 							</figure>
-							
 					</div>
 
-					<div class="col-sm-9  col-md-8 col-lg-9 text-primary description">
-						<p class="text-center">Witaj w programie "Twój budżet domowy".<p/>
-						<p class="text-justify">Po lewej stronie znajduje się lista dostępnych opcji programu. 
-						Po najechaniu kursorem na daną opcje wyświetli się jej krótki opis. Po kliknięciu zostaniesz przeniesiony do okna danej opcji.
-						Zacznij już dziś zarządzać swoim budżetem domowym, kontrolować wydatki i wyciągać wnioski :) <p/>
-						<p>Zatem do dzieła!<p/>
+					<div class="jumbotron col-sm-9  col-md-8 col-lg-9 bg-transparent">
+					  <h1 class="display-5">Witaj w programie "Portfel"!</h1>
+					  <p class="lead">Po lewej stronie znajduje się lista dostępnych opcji programu. 
+											Po kliknięciu zostaniesz przeniesiony do okna danej opcji.
+											Zacznij już dziś zarządzać swoim budżetem domowym, kontrolować wydatki i wyciągać wnioski :) </p>
+					  <hr class="my-4">
+					  <p>Zatem do dzieła!</p>
+
 					</div>
-					
 				</div>
-				
 			</div>
 			
 			<footer>
 				<div class="footer">
-					<div class="footer-copyright text-center border py-3 ">
+					<div class="footer-copyright text-center py-3 ">
 						Copyright 2020 &copy; Paweł Baran. Wszelkie prawa zastrzeżone.
 					</div>
 				</div>

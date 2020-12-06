@@ -22,10 +22,15 @@ function drawChart()
 			]);
 
 				// Optional; add a title and set the width and height of the chart
-		var options = {'title':'Procentowy rozkład wydatków', 'width':800, 'height':800, tooltip:{text:'percentage'},
-                           'is3D': true};
+		var options = {'title':'Procentowy rozkład wydatków', 'width':'100%', 'height':'100%', tooltip:{text:'percentage'}, backgroundColor: 'transparent',
+                           'is3D': true, 'responsive': true};
 
 				// Display the chart inside the <div> element with id="piechart"
 		var chart = new google.visualization.PieChart(document.getElementById('piechart'));
 				chart.draw(data, options);
 	}
+	
+	
+
+
+
