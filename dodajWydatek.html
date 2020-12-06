@@ -25,11 +25,30 @@
 	
 	<header>
 	
-		<nav class="navbar navbar-dark bg-info">
+		<nav class="navbar navbar-expand-sm navbar-dark bg-info">
 			
-			<a class="navbar-brand"><img src="img/wallet-with-money-png-42773.png" width="50" 
-			class="d-inline-block mr-2"	alt=""> Portfel</a>
-				
+			<a class="navbar-brand"><img src="img/wallet-with-money-png-42773.png" width="50" alt=""> Portfel</a>
+			<button class="navbar-toggler" type="button" data-target="#navbar" data-toggle="collapse">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div class="navbar-collapse collapse justify-content-end" id="navbar">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a href="#" class="nav-link">Jak używać?</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">FAQ</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Kontakt</a>
+					</li>
+				</ul>
+			</div>
+			
 		</nav>
 
 	</header>
@@ -38,7 +57,7 @@
 	
 		<div class="container">
 			
-			<div class="col-12 containerMenu mt-3" >
+			<div class="col-12 containerMenu mt-5" >
 				
 				<div class="row ">
 					
@@ -115,7 +134,7 @@
 							
 							<div class="form-row">
 							
-								<div class="form-group col-sm-12 col-lg-4 border"><label><b>Sposób płatności:</b></label>
+								<div class="form-group col-sm-12 col-lg-4"><label><b>Sposób płatności:</b></label>
 									<div class="custom-control custom-radio">
 											<input class="custom-control-input" type="radio" name="paymentMethod" id="gotowka" value="Gotówka">
 											<label class="custom-control-label" for="gotowka">Gotówka</label>
@@ -130,7 +149,7 @@
 									</div>				
 								</div>
 								
-								<div class="form-group col-sm-6 col-lg-4 border"><label><b>Kategoria:</b></label>
+								<div class="form-group col-sm-6 col-lg-4"><label><b>Kategoria:</b></label>
 									<div class="custom-control custom-radio">
 										<input class="custom-control-input" type="radio" name="category" id="food" value="Jedzenie">
 										<label class="custom-control-label" for="food">Jedzenie</label>
@@ -167,7 +186,7 @@
 									</div>
 								</div>
 								
-								<div class="form-group col-sm-6 col-lg-4 border">	
+								<div class="form-group col-sm-6 col-lg-4">	
 									<div class="custom-control custom-radio">
 										<input class="custom-control-input" type="radio" name="category" id="entertainment" value="Entertainment">
 										<label class="custom-control-label" for="entertainment">Rozrywka</label>
@@ -205,7 +224,7 @@
 										<label class="custom-control-label" for="otherExpenses">Inne wydatki</label>
 									</div>							
 								</div>	
-									<div class="form-group border col-12">
+									<div class="form-group col-12">
 										<label for="komentarz"><b>Komentarz:</b></label>
 										<textarea name="dodatkowyOpis" id="komentarz" class="form-control"></textarea>
 									</div>
@@ -213,11 +232,9 @@
 							</div>
 							
 							<div class="form-row">
-								<div class="btn-group border col-12">
+								<div class="btn-group col-12">
 									<button type="submit" class="btn btn-success">Wyślij</button>
 									<button type="reset" class="btn btn-danger">Anuluj</button>
-									<!--<input id="addSubmit" type="submit" value="Dodaj">
-									<input id="cancelSubmit" type="reset" value="Anuluj"> -->
 								</div>
 							</div>
 						
@@ -230,7 +247,7 @@
 		</div>
 			<footer>
 				<div class="footer">
-					<div class="footer-copyright text-center border py-3 ">
+					<div class="footer-copyright text-center py-3 ">
 						Copyright 2020 &copy; Paweł Baran. Wszelkie prawa zastrzeżone.
 					</div>
 				</div>
