@@ -1,7 +1,7 @@
 body
 {
 	/* Background pattern from subtlepatterns.com */
-	background-image: url("img/doublebubble.png");
+	background-image: url("img/perforated_white_leather.png");
 
 	font-family: 'Lato', sans-serif;
 }
@@ -28,8 +28,6 @@ body
 	padding: 20px;
 	border-radius: 10px;
 	background-color: lightcyan;
-	-webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
-	-moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
 	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
 }
 
@@ -43,8 +41,6 @@ body
 {
 	border-radius: 10px;
 	background-color: lightcyan;
-	-webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
-	-moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
 	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
 	padding: 20px;
 }
@@ -56,8 +52,6 @@ body
 
 .rectangle
 {
-	-webkit-box-shadow: 10px 10px 15px 5px rgba(204,204,204,0.9);
-	-moz-box-shadow: 10px 10px 15px 5px rgba(204,204,204,0.9);
 	box-shadow: 10px 10px 15px 5px rgba(204,204,204,0.9);
 	border-radius: 10px;
 	background-color: #ffffff;
@@ -80,8 +74,6 @@ body
 
 .tile1
 {
-	-webkit-box-shadow: 10px 10px 15px 5px rgba(204,204,204,0.9);
-	-moz-box-shadow: 10px 10px 15px 5px rgba(204,204,204,0.9);
 	box-shadow: 10px 10px 15px 5px rgba(204,204,204,0.9);
 	border-radius: 10px;
 	background-color: #00FF99;
@@ -89,8 +81,6 @@ body
 
 .tile2
 {
-	-webkit-box-shadow: 10px 10px 15px 5px rgba(204,204,204,0.9);
-	-moz-box-shadow: 10px 10px 15px 5px rgba(204,204,204,0.9);
 	box-shadow: 10px 10px 15px 5px rgba(204,204,204,0.9);
 	border-radius: 10px;
 	background-color: #FF3333;
@@ -98,8 +88,6 @@ body
 
 .tile3
 {
-	-webkit-box-shadow: 10px 10px 15px 5px rgba(204,204,204,0.9);
-	-moz-box-shadow: 10px 10px 15px 5px rgba(204,204,204,0.9);
 	box-shadow: 10px 10px 15px 5px rgba(204,204,204,0.9);
 	border-radius: 10px;
 	background-color: #7093DB;
@@ -107,8 +95,6 @@ body
 
 .tile4
 {
-	-webkit-box-shadow: 10px 10px 15px 5px rgba(204,204,204,0.9);
-	-moz-box-shadow: 10px 10px 15px 5px rgba(204,204,204,0.9);
 	box-shadow: 10px 10px 15px 5px rgba(204,204,204,0.9);
 	border-radius: 10px;
 	background-color: #238E23;
@@ -116,8 +102,6 @@ body
 
 .tile5
 {
-	-webkit-box-shadow: 10px 10px 15px 5px rgba(204,204,204,0.9);
-	-moz-box-shadow: 10px 10px 15px 5px rgba(204,204,204,0.9);
 	box-shadow: 10px 10px 15px 5px rgba(204,204,204,0.9);
 	border-radius: 10px;
 	background-color: #FF6600;
@@ -160,25 +144,6 @@ a.logolink
 {
 	color: #000000;
 	text-decoration: none;
-}
-
-td
-{
-	border: 1px solid gray; 
-	text-align: right;
-	padding: 5px;
-}
-
-th 
-{
-	border: 1px solid gray; 
-	padding: 5px;
-}
-
-table
-{
-	align: right;
-	border-collapse: collapse;
 }
 
 @media (max-width: 575px)
@@ -240,37 +205,27 @@ table
 	}
 	.tile1
 	{
-	-webkit-box-shadow: 5px 5px 7px 3px rgba(204,204,204,0.9);
-	-moz-box-shadow: 5px 5px 7px 3px rgba(204,204,204,0.9);
 	box-shadow: 5px 5px 7px 3px rgba(204,204,204,0.9);
 	border-radius: 8px;
 	margin-left: 0px;
 	}
 	.tile2
 	{
-	-webkit-box-shadow: 5px 5px 7px 3px rgba(204,204,204,0.9);
-	-moz-box-shadow: 5px 5px 7px 3px rgba(204,204,204,0.9);
 	box-shadow: 5px 5px 7px 1px rgba(204,204,204,0.9);
 	border-radius: 8px;
 	}
 	.tile3
 	{
-	-webkit-box-shadow: 5px 5px 7px 3px rgba(204,204,204,0.9);
-	-moz-box-shadow: 5px 5px 7px 3px rgba(204,204,204,0.9);
 	box-shadow: 5px 5px 7px 3px rgba(204,204,204,0.9);
 	border-radius: 8px;
 	}
 	.tile4
 	{
-	-webkit-box-shadow: 5px 5px 7px 3px rgba(204,204,204,0.9);
-	-moz-box-shadow: 5px 5px 7px 3px rgba(204,204,204,0.9);
 	box-shadow: 5px 5px 7px 3px rgba(204,204,204,0.9);
 	border-radius: 8px;
 	}
 	.tile5
 	{
-	-webkit-box-shadow: 5px 5px 7px 3px rgba(204,204,204,0.9);
-	-moz-box-shadow: 5px 5px 7px 3px rgba(204,204,204,0.9);
 	box-shadow: 5px 5px 7px 3px rgba(204,204,204,0.9);
 	border-radius: 8px;
 	}

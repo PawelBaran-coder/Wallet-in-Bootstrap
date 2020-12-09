@@ -5,7 +5,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css" type="text/css">
@@ -19,10 +19,10 @@
 
 	<script src="timer.js"></script>
 	
-	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	<script src="https://www.gstatic.com/charts/loader.js"></script>
 	<script src="pieChart.js"></script>
 	
-	<script type="text/javascript">
+	<script>
 		google.charts.load('current', {'packages':['corechart']});
 		google.charts.setOnLoadCallback(drawChart);
 	</script>
@@ -105,12 +105,12 @@
 												</div>
 												<div class="modal-body">
 													<div class="form-group">
-														<label for="data">Data początkowa:</label>
-														<input type="date" class="form-control" id="data">
+														<label for="dataStart">Data początkowa:</label>
+														<input type="date" class="form-control" id="dataStart">
 													</div>
 													<div class="form-group">
-														<label for="data">Data końcowa:</label>
-														<input type="date" class="form-control" id="data">
+														<label for="dataKoniec">Data końcowa:</label>
+														<input type="date" class="form-control" id="dataKoniec">
 													</div>
 													
 												</div>
@@ -175,93 +175,93 @@
 							<tbody>
 								<tr class="d-flex"> 
 									<th class="col-6" >Jedzenie</th>
-									<td class="col-3 bg-success text-light">0,0zł</td>
-									<td class="col-3 bg-danger text-light">0,0zł</td>
+									<td class="col-3 bg-success text-light text-right">0,0zł</td>
+									<td class="col-3 bg-danger text-light text-right">0,0zł</td>
 								</tr>
 								<tr class="d-flex"> 
 									<th class="col-6">Mieszkanie</th>
-									<td class="col-3 bg-success text-light">0,0zł</td>
-									<td class="col-3 bg-danger text-light">0,0zł</td>
+									<td class="col-3 bg-success text-light text-right">0,0zł</td>
+									<td class="col-3 bg-danger text-light text-right">0,0zł</td>
 								</tr>
 								<tr class="d-flex"> 
 									<th class="col-6">Transport</th>
-									<td class="col-3 bg-success text-light">0,0zł</td>
-									<td class="col-3 bg-danger text-light">0,0zł</td>
+									<td class="col-3 bg-success text-light text-right">0,0zł</td>
+									<td class="col-3 bg-danger text-light text-right">0,0zł</td>
 								</tr>
 								<tr class="d-flex"> 
 									<th class="col-6">Telekomunikacja</th>
-								<td class="col-3 bg-success text-light">0,0zł</td>
-									<td class="col-3 bg-danger text-light">0,0zł</td>
+								<td class="col-3 bg-success text-light text-right">0,0zł</td>
+									<td class="col-3 bg-danger text-light text-right">0,0zł</td>
 								</tr>
 								<tr class="d-flex"> 
 									<th class="col-6">Opieka zdrowotna</th>
-								<td class="col-3 bg-success text-light">0,0zł</td>
-									<td class="col-3 bg-danger text-light">0,0zł</td>
+								<td class="col-3 bg-success text-light text-right">0,0zł</td>
+									<td class="col-3 bg-danger text-light text-right">0,0zł</td>
 								</tr>
 								<tr class="d-flex"> 
 									<th class="col-6">Ubranie</th>
-									<td class="col-3 bg-success text-light">0,0zł</td>
-									<td class="col-3 bg-danger text-light">0,0zł</td>
+									<td class="col-3 bg-success text-light text-right">0,0zł</td>
+									<td class="col-3 bg-danger text-light text-right">0,0zł</td>
 								</tr>
 								<tr class="d-flex"> 
 									<th class="col-6">Higiena</th>
-									<td class="col-3 bg-success text-light">0,0zł</td>
-									<td class="col-3 bg-danger text-light">0,0zł</td>
+									<td class="col-3 bg-success text-light text-right">0,0zł</td>
+									<td class="col-3 bg-danger text-light text-right">0,0zł</td>
 								</tr>
 								<tr class="d-flex"> 
 									<th class="col-6">Dzieci</th>
-									<td class="col-3 bg-success text-light">0,0zł</td>
-									<td class="col-3 bg-danger text-light">0,0zł</td>
+									<td class="col-3 bg-success text-light text-right">0,0zł</td>
+									<td class="col-3 bg-danger text-light text-right">0,0zł</td>
 								</tr>
 								<tr class="d-flex"> 
 									<th class="col-6">Rozrywka</th>
-								<td class="col-3 bg-success text-light">0,0zł</td>
-									<td class="col-3 bg-danger text-light">0,0zł</td>
+								<td class="col-3 bg-success text-light text-right">0,0zł</td>
+									<td class="col-3 bg-danger text-light text-right">0,0zł</td>
 								</tr>
 								<tr class="d-flex"> 
 									<th class="col-6">Wycieczka</th>
-									<td class="col-3 bg-success text-light">0,0zł</td>
-									<td class="col-3 bg-danger text-light">0,0zł</td>
+									<td class="col-3 bg-success text-light text-right">0,0zł</td>
+									<td class="col-3 bg-danger text-light text-right">0,0zł</td>
 								</tr>
 								<tr class="d-flex"> 
 									<th class="col-6">Szkolenia</th>
-									<td class="col-3 bg-success text-light">0,0zł</td>
-									<td class="col-3 bg-danger text-light">0,0zł</td>
+									<td class="col-3 bg-success text-light text-right">0,0zł</td>
+									<td class="col-3 bg-danger text-light text-right">0,0zł</td>
 								</tr>
 								<tr class="d-flex"> 
 									<th class="col-6">Książki</th>
-									<td class="col-3 bg-success text-light">0,0zł</td>
-									<td class="col-3 bg-danger text-light">0,0zł</td>
+									<td class="col-3 bg-success text-light text-right">0,0zł</td>
+									<td class="col-3 bg-danger text-light text-right">0,0zł</td>
 								</tr>
 								<tr class="d-flex"> 
 									<th class="col-6">Oszczędności</th>
-									<td class="col-3 bg-success text-light">0,0zł</td>
-									<td class="col-3 bg-danger text-light">0,0zł</td>
+									<td class="col-3 bg-success text-light text-right">0,0zł</td>
+									<td class="col-3 bg-danger text-light text-right">0,0zł</td>
 								</tr>
 								<tr class="d-flex"> 
 									<th class="col-6">Na złotą jesień, czyli emeryturę</th>
-									<td class="col-3 bg-success text-light">0,0zł</td>
-									<td class="col-3 bg-danger text-light">0,0zł</td>
+									<td class="col-3 bg-success text-light text-right">0,0zł</td>
+									<td class="col-3 bg-danger text-light text-right">0,0zł</td>
 								</tr>
 								<tr class="d-flex"> 
 									<th class="col-6">Spłata długów</th>
-									<td class="col-3 bg-success text-light">0,0zł</td>
-									<td class="col-3 bg-danger text-light">0,0zł</td>
+									<td class="col-3 bg-success text-light text-right">0,0zł</td>
+									<td class="col-3 bg-danger text-light text-right">0,0zł</td>
 								</tr>
 								<tr class="d-flex"> 
 									<th class="col-6">Darowizna</th>
-									<td class="col-3 bg-success text-light">0,0zł</td>
-									<td class="col-3 bg-danger text-light">0,0zł</td>
+									<td class="col-3 bg-success text-light text-right">0,0zł</td>
+									<td class="col-3 bg-danger text-light text-right">0,0zł</td>
 								</tr>
 								<tr class="d-flex"> 
 									<th class="col-6">Inne wydatki</th>
-									<td class="col-3 bg-success text-light">0,0zł</td>
-									<td class="col-3 bg-danger text-light">0,0zł</td>
+									<td class="col-3 bg-success text-light text-right">0,0zł</td>
+									<td class="col-3 bg-danger text-light text-right">0,0zł</td>
 								</tr>
 								<tr class="d-flex"> 
 									<th class="col-6">SUMA</th>
-									<td class="col-3 bg-success text-light">0,0zł</td>
-									<td class="col-3 bg-danger text-light">0,0zł</td>
+									<td class="col-3 bg-success text-light text-right">0,0zł</td>
+									<td class="col-3 bg-danger text-light text-right">0,0zł</td>
 								</tr>
 							</tbody>	
 						</table>
@@ -272,16 +272,15 @@
 						<div id="piechart" ></div>
 				</div>
 			</div>
-			
 		</div>
-			<footer>
-				<div class="footer">
-					<div class="footer-copyright text-center py-3 ">
-						Copyright 2020 &copy; Paweł Baran. Wszelkie prawa zastrzeżone.
-					</div>
+		
+		<footer>
+			<div class="footer">
+				<div class="footer-copyright text-center py-3 ">
+					Copyright 2020 &copy; Paweł Baran. Wszelkie prawa zastrzeżone.
 				</div>
-			</footer>
-		</div>
+			</div>
+		</footer>
 		
 	</main>
 	
